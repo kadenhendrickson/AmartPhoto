@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2633AB2527BEE500240172 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2633AA2527BEE500240172 /* TabBarView.swift */; };
+		DC2633B02527BFFB00240172 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2633AF2527BFFB00240172 /* UserProfile.swift */; };
+		DC2633EA252A399900240172 /* TransactionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2633E9252A399900240172 /* TransactionDetail.swift */; };
+		DC2633F4252A938000240172 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2633F3252A938000240172 /* Home.swift */; };
+		DC4C02EC252BE7EC0073904D /* userData.json in Resources */ = {isa = PBXBuildFile; fileRef = DC4C02EB252BE7EC0073904D /* userData.json */; };
+		DC4C02F9252BE95A0073904D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C02F8252BE95A0073904D /* User.swift */; };
+		DC4C030B252BF1C40073904D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C030A252BF1C40073904D /* CircleImage.swift */; };
+		DC4C031E252C23D30073904D /* CreateTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C031D252C23D30073904D /* CreateTransaction.swift */; };
+		DC4C0323252C26D00073904D /* AddressField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C0322252C26D00073904D /* AddressField.swift */; };
+		DC6F6AF4252EECF4002AFC8D /* BrokerageLogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F6AF3252EECF4002AFC8D /* BrokerageLogoImage.swift */; };
+		DC6F6AF9252EFA84002AFC8D /* profilePicture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC6F6AF8252EFA83002AFC8D /* profilePicture.jpg */; };
+		DC6F6B04252EFF1A002AFC8D /* NicePng_camera-outline-png_1107816.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6F6B03252EFF1A002AFC8D /* NicePng_camera-outline-png_1107816.png */; };
+		DCC146D525255D2200B6CECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC146D425255D2200B6CECC /* AppDelegate.swift */; };
+		DCC146D725255D2200B6CECC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC146D625255D2200B6CECC /* SceneDelegate.swift */; };
+		DCC146DB25255D2400B6CECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC146DA25255D2400B6CECC /* Assets.xcassets */; };
+		DCC146DE25255D2400B6CECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC146DD25255D2400B6CECC /* Preview Assets.xcassets */; };
+		DCC146E125255D2400B6CECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC146DF25255D2400B6CECC /* LaunchScreen.storyboard */; };
+		DCC146EC25255D2400B6CECC /* AmartPhotoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC146EB25255D2400B6CECC /* AmartPhotoAppTests.swift */; };
+		DCC146F725255D2400B6CECC /* AmartPhotoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC146F625255D2400B6CECC /* AmartPhotoAppUITests.swift */; };
+		DCC1470F25255D5C00B6CECC /* transactionData.json in Resources */ = {isa = PBXBuildFile; fileRef = DCC1470E25255D5C00B6CECC /* transactionData.json */; };
+		DCC1471425255D7000B6CECC /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC1471325255D7000B6CECC /* Transaction.swift */; };
+		DCC1471925255D7600B6CECC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC1471825255D7600B6CECC /* Data.swift */; };
+		DCC1471E25255D7D00B6CECC /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC1471D25255D7D00B6CECC /* TransactionList.swift */; };
+		DCC1472325255D8200B6CECC /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC1472225255D8200B6CECC /* TransactionRow.swift */; };
+		DCD3D099252CF4E700902D62 /* StateZipField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D098252CF4E700902D62 /* StateZipField.swift */; };
+		DCD3D09E252CF5DC00902D62 /* CityField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D09D252CF5DC00902D62 /* CityField.swift */; };
+		DCD3D0A3252CF7B000902D62 /* VacancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D0A2252CF7B000902D62 /* VacancyField.swift */; };
+		DCD3D0B0252D014500902D62 /* SquareFeetField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D0AF252D014500902D62 /* SquareFeetField.swift */; };
+		DCD3D0B5252D1EE000902D62 /* DatePickerField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D0B4252D1EE000902D62 /* DatePickerField.swift */; };
+		DCD3D0BB252D585400902D62 /* CreateTransaction2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D0BA252D585400902D62 /* CreateTransaction2.swift */; };
+		DCD3D0C0252D591100902D62 /* PackageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D0BF252D591100902D62 /* PackageCollectionView.swift */; };
+		DCD3D0CD252D5B4F00902D62 /* completedTransactionData.json in Resources */ = {isa = PBXBuildFile; fileRef = DCD3D0CC252D5B4F00902D62 /* completedTransactionData.json */; };
+		DCD3D0D9252E11AA00902D62 /* Packages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D0D8252E11AA00902D62 /* Packages.swift */; };
+		DCD3D0E7252E133400902D62 /* PackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D0E6252E133400902D62 /* PackageCell.swift */; };
+		DCD3D0EC252E151000902D62 /* AddOnCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D0EB252E151000902D62 /* AddOnCollectionView.swift */; };
+		DCD3D0F1252E151A00902D62 /* AddOnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D0F0252E151A00902D62 /* AddOnCell.swift */; };
+		DCD3D0F6252E152F00902D62 /* AddOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D0F5252E152F00902D62 /* AddOn.swift */; };
+		DCD3D104252E1C4900902D62 /* MultiLineTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3D103252E1C4900902D62 /* MultiLineTextView.swift */; };
+		DCD3D109252E9C7100902D62 /* logoImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCD3D108252E9C7100902D62 /* logoImage.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC146E825255D2400B6CECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC146C925255D2200B6CECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC146D025255D2200B6CECC;
+			remoteInfo = AmartPhotoApp;
+		};
+		DCC146F325255D2400B6CECC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC146C925255D2200B6CECC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC146D025255D2200B6CECC;
+			remoteInfo = AmartPhotoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC2633AA2527BEE500240172 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		DC2633AF2527BFFB00240172 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		DC2633E9252A399900240172 /* TransactionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetail.swift; sourceTree = "<group>"; };
+		DC2633F3252A938000240172 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DC4C02EB252BE7EC0073904D /* userData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = userData.json; sourceTree = "<group>"; };
+		DC4C02F8252BE95A0073904D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DC4C030A252BF1C40073904D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		DC4C031D252C23D30073904D /* CreateTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTransaction.swift; sourceTree = "<group>"; };
+		DC4C0322252C26D00073904D /* AddressField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressField.swift; sourceTree = "<group>"; };
+		DC6F6AF3252EECF4002AFC8D /* BrokerageLogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokerageLogoImage.swift; sourceTree = "<group>"; };
+		DC6F6AF8252EFA83002AFC8D /* profilePicture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profilePicture.jpg; sourceTree = "<group>"; };
+		DC6F6B03252EFF1A002AFC8D /* NicePng_camera-outline-png_1107816.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NicePng_camera-outline-png_1107816.png"; sourceTree = "<group>"; };
+		DCC146D125255D2200B6CECC /* AmartPhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmartPhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC146D425255D2200B6CECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCC146D625255D2200B6CECC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCC146DA25255D2400B6CECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC146DD25255D2400B6CECC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCC146E025255D2400B6CECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC146E225255D2400B6CECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC146E725255D2400B6CECC /* AmartPhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmartPhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC146EB25255D2400B6CECC /* AmartPhotoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmartPhotoAppTests.swift; sourceTree = "<group>"; };
+		DCC146ED25255D2400B6CECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC146F225255D2400B6CECC /* AmartPhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmartPhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC146F625255D2400B6CECC /* AmartPhotoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmartPhotoAppUITests.swift; sourceTree = "<group>"; };
+		DCC146F825255D2400B6CECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC1470E25255D5C00B6CECC /* transactionData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transactionData.json; sourceTree = "<group>"; };
+		DCC1471325255D7000B6CECC /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		DCC1471825255D7600B6CECC /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		DCC1471D25255D7D00B6CECC /* TransactionList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		DCC1472225255D8200B6CECC /* TransactionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		DCD3D098252CF4E700902D62 /* StateZipField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateZipField.swift; sourceTree = "<group>"; };
+		DCD3D09D252CF5DC00902D62 /* CityField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityField.swift; sourceTree = "<group>"; };
+		DCD3D0A2252CF7B000902D62 /* VacancyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyField.swift; sourceTree = "<group>"; };
+		DCD3D0AF252D014500902D62 /* SquareFeetField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareFeetField.swift; sourceTree = "<group>"; };
+		DCD3D0B4252D1EE000902D62 /* DatePickerField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerField.swift; sourceTree = "<group>"; };
+		DCD3D0BA252D585400902D62 /* CreateTransaction2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTransaction2.swift; sourceTree = "<group>"; };
+		DCD3D0BF252D591100902D62 /* PackageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageCollectionView.swift; sourceTree = "<group>"; };
+		DCD3D0CC252D5B4F00902D62 /* completedTransactionData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = completedTransactionData.json; sourceTree = "<group>"; };
+		DCD3D0D8252E11AA00902D62 /* Packages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packages.swift; sourceTree = "<group>"; };
+		DCD3D0E6252E133400902D62 /* PackageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageCell.swift; sourceTree = "<group>"; };
+		DCD3D0EB252E151000902D62 /* AddOnCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOnCollectionView.swift; sourceTree = "<group>"; };
+		DCD3D0F0252E151A00902D62 /* AddOnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOnCell.swift; sourceTree = "<group>"; };
+		DCD3D0F5252E152F00902D62 /* AddOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOn.swift; sourceTree = "<group>"; };
+		DCD3D103252E1C4900902D62 /* MultiLineTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLineTextView.swift; sourceTree = "<group>"; };
+		DCD3D108252E9C7100902D62 /* logoImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logoImage.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC146CE25255D2200B6CECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC146E425255D2400B6CECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC146EF25255D2400B6CECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2633DD2527CC9500240172 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				DCC1471D25255D7D00B6CECC /* TransactionList.swift */,
+				DCC1472225255D8200B6CECC /* TransactionRow.swift */,
+				DC2633FF252A9AD100240172 /* CreateTransaction */,
+				DC2633FB252A9AC500240172 /* TransactionDetail */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		DC2633DE2527CCA400240172 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DC2633AF2527BFFB00240172 /* UserProfile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DC2633DF2527CCAA00240172 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DC2633AA2527BEE500240172 /* TabBarView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		DC2633FB252A9AC500240172 /* TransactionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DC2633E9252A399900240172 /* TransactionDetail.swift */,
+			);
+			path = TransactionDetail;
+			sourceTree = "<group>";
+		};
+		DC2633FF252A9AD100240172 /* CreateTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				DC4C031D252C23D30073904D /* CreateTransaction.swift */,
+				DCD3D0BA252D585400902D62 /* CreateTransaction2.swift */,
+				DCD3D0D4252E0FE400902D62 /* CreateTransactionFields */,
+			);
+			path = CreateTransaction;
+			sourceTree = "<group>";
+		};
+		DC4C0309252BF1B70073904D /* SupportingViews */ = {
+			isa = PBXGroup;
+			children = (
+				DC4C030A252BF1C40073904D /* CircleImage.swift */,
+				DCD3D103252E1C4900902D62 /* MultiLineTextView.swift */,
+				DC6F6AF3252EECF4002AFC8D /* BrokerageLogoImage.swift */,
+			);
+			path = SupportingViews;
+			sourceTree = "<group>";
+		};
+		DCC146C825255D2200B6CECC = {
+			isa = PBXGroup;
+			children = (
+				DCC146D325255D2200B6CECC /* AmartPhotoApp */,
+				DCC146EA25255D2400B6CECC /* AmartPhotoAppTests */,
+				DCC146F525255D2400B6CECC /* AmartPhotoAppUITests */,
+				DCC146D225255D2200B6CECC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC146D225255D2200B6CECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC146D125255D2200B6CECC /* AmartPhotoApp.app */,
+				DCC146E725255D2400B6CECC /* AmartPhotoAppTests.xctest */,
+				DCC146F225255D2400B6CECC /* AmartPhotoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC146D325255D2200B6CECC /* AmartPhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				DC2633F3252A938000240172 /* Home.swift */,
+				DC2633DD2527CC9500240172 /* Transactions */,
+				DC2633DF2527CCAA00240172 /* TabBar */,
+				DC2633DE2527CCA400240172 /* Profile */,
+				DCC1470B25255D3500B6CECC /* Resources */,
+				DCC1470A25255D3000B6CECC /* Models */,
+				DC4C0309252BF1B70073904D /* SupportingViews */,
+				DCC146D425255D2200B6CECC /* AppDelegate.swift */,
+				DCC146D625255D2200B6CECC /* SceneDelegate.swift */,
+				DCC146DA25255D2400B6CECC /* Assets.xcassets */,
+				DCC146DF25255D2400B6CECC /* LaunchScreen.storyboard */,
+				DCC146E225255D2400B6CECC /* Info.plist */,
+				DCC146DC25255D2400B6CECC /* Preview Content */,
+			);
+			path = AmartPhotoApp;
+			sourceTree = "<group>";
+		};
+		DCC146DC25255D2400B6CECC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCC146DD25255D2400B6CECC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCC146EA25255D2400B6CECC /* AmartPhotoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC146EB25255D2400B6CECC /* AmartPhotoAppTests.swift */,
+				DCC146ED25255D2400B6CECC /* Info.plist */,
+			);
+			path = AmartPhotoAppTests;
+			sourceTree = "<group>";
+		};
+		DCC146F525255D2400B6CECC /* AmartPhotoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC146F625255D2400B6CECC /* AmartPhotoAppUITests.swift */,
+				DCC146F825255D2400B6CECC /* Info.plist */,
+			);
+			path = AmartPhotoAppUITests;
+			sourceTree = "<group>";
+		};
+		DCC1470A25255D3000B6CECC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCC1471825255D7600B6CECC /* Data.swift */,
+				DCC1471325255D7000B6CECC /* Transaction.swift */,
+				DC4C02F8252BE95A0073904D /* User.swift */,
+				DCD3D0D8252E11AA00902D62 /* Packages.swift */,
+				DCD3D0F5252E152F00902D62 /* AddOn.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCC1470B25255D3500B6CECC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCD3D108252E9C7100902D62 /* logoImage.jpg */,
+				DC6F6B03252EFF1A002AFC8D /* NicePng_camera-outline-png_1107816.png */,
+				DC6F6AF8252EFA83002AFC8D /* profilePicture.jpg */,
+				DCC1470E25255D5C00B6CECC /* transactionData.json */,
+				DC4C02EB252BE7EC0073904D /* userData.json */,
+				DCD3D0CC252D5B4F00902D62 /* completedTransactionData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCD3D0D4252E0FE400902D62 /* CreateTransactionFields */ = {
+			isa = PBXGroup;
+			children = (
+				DC4C0322252C26D00073904D /* AddressField.swift */,
+				DCD3D098252CF4E700902D62 /* StateZipField.swift */,
+				DCD3D09D252CF5DC00902D62 /* CityField.swift */,
+				DCD3D0A2252CF7B000902D62 /* VacancyField.swift */,
+				DCD3D0AF252D014500902D62 /* SquareFeetField.swift */,
+				DCD3D0B4252D1EE000902D62 /* DatePickerField.swift */,
+				DCD3D0BF252D591100902D62 /* PackageCollectionView.swift */,
+				DCD3D0E6252E133400902D62 /* PackageCell.swift */,
+				DCD3D0EB252E151000902D62 /* AddOnCollectionView.swift */,
+				DCD3D0F0252E151A00902D62 /* AddOnCell.swift */,
+			);
+			path = CreateTransactionFields;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC146D025255D2200B6CECC /* AmartPhotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC146FB25255D2400B6CECC /* Build configuration list for PBXNativeTarget "AmartPhotoApp" */;
+			buildPhases = (
+				DCC146CD25255D2200B6CECC /* Sources */,
+				DCC146CE25255D2200B6CECC /* Frameworks */,
+				DCC146CF25255D2200B6CECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmartPhotoApp;
+			productName = AmartPhotoApp;
+			productReference = DCC146D125255D2200B6CECC /* AmartPhotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC146E625255D2400B6CECC /* AmartPhotoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC146FE25255D2400B6CECC /* Build configuration list for PBXNativeTarget "AmartPhotoAppTests" */;
+			buildPhases = (
+				DCC146E325255D2400B6CECC /* Sources */,
+				DCC146E425255D2400B6CECC /* Frameworks */,
+				DCC146E525255D2400B6CECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC146E925255D2400B6CECC /* PBXTargetDependency */,
+			);
+			name = AmartPhotoAppTests;
+			productName = AmartPhotoAppTests;
+			productReference = DCC146E725255D2400B6CECC /* AmartPhotoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCC146F125255D2400B6CECC /* AmartPhotoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC1470125255D2400B6CECC /* Build configuration list for PBXNativeTarget "AmartPhotoAppUITests" */;
+			buildPhases = (
+				DCC146EE25255D2400B6CECC /* Sources */,
+				DCC146EF25255D2400B6CECC /* Frameworks */,
+				DCC146F025255D2400B6CECC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC146F425255D2400B6CECC /* PBXTargetDependency */,
+			);
+			name = AmartPhotoAppUITests;
+			productName = AmartPhotoAppUITests;
+			productReference = DCC146F225255D2400B6CECC /* AmartPhotoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC146C925255D2200B6CECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DCC146D025255D2200B6CECC = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DCC146E625255D2400B6CECC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DCC146D025255D2200B6CECC;
+					};
+					DCC146F125255D2400B6CECC = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DCC146D025255D2200B6CECC;
+					};
+				};
+			};
+			buildConfigurationList = DCC146CC25255D2200B6CECC /* Build configuration list for PBXProject "AmartPhotoApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC146C825255D2200B6CECC;
+			productRefGroup = DCC146D225255D2200B6CECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC146D025255D2200B6CECC /* AmartPhotoApp */,
+				DCC146E625255D2400B6CECC /* AmartPhotoAppTests */,
+				DCC146F125255D2400B6CECC /* AmartPhotoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC146CF25255D2200B6CECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD3D109252E9C7100902D62 /* logoImage.jpg in Resources */,
+				DC4C02EC252BE7EC0073904D /* userData.json in Resources */,
+				DC6F6B04252EFF1A002AFC8D /* NicePng_camera-outline-png_1107816.png in Resources */,
+				DCC1470F25255D5C00B6CECC /* transactionData.json in Resources */,
+				DCC146E125255D2400B6CECC /* LaunchScreen.storyboard in Resources */,
+				DC6F6AF9252EFA84002AFC8D /* profilePicture.jpg in Resources */,
+				DCC146DE25255D2400B6CECC /* Preview Assets.xcassets in Resources */,
+				DCD3D0CD252D5B4F00902D62 /* completedTransactionData.json in Resources */,
+				DCC146DB25255D2400B6CECC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC146E525255D2400B6CECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC146F025255D2400B6CECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC146CD25255D2200B6CECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC146D525255D2200B6CECC /* AppDelegate.swift in Sources */,
+				DCD3D0EC252E151000902D62 /* AddOnCollectionView.swift in Sources */,
+				DCD3D0F6252E152F00902D62 /* AddOn.swift in Sources */,
+				DCD3D0C0252D591100902D62 /* PackageCollectionView.swift in Sources */,
+				DCD3D099252CF4E700902D62 /* StateZipField.swift in Sources */,
+				DCD3D0E7252E133400902D62 /* PackageCell.swift in Sources */,
+				DC4C031E252C23D30073904D /* CreateTransaction.swift in Sources */,
+				DCD3D0BB252D585400902D62 /* CreateTransaction2.swift in Sources */,
+				DCC1471E25255D7D00B6CECC /* TransactionList.swift in Sources */,
+				DCD3D104252E1C4900902D62 /* MultiLineTextView.swift in Sources */,
+				DCD3D0A3252CF7B000902D62 /* VacancyField.swift in Sources */,
+				DC2633F4252A938000240172 /* Home.swift in Sources */,
+				DC2633EA252A399900240172 /* TransactionDetail.swift in Sources */,
+				DC6F6AF4252EECF4002AFC8D /* BrokerageLogoImage.swift in Sources */,
+				DC2633AB2527BEE500240172 /* TabBarView.swift in Sources */,
+				DCD3D09E252CF5DC00902D62 /* CityField.swift in Sources */,
+				DCD3D0B5252D1EE000902D62 /* DatePickerField.swift in Sources */,
+				DCD3D0B0252D014500902D62 /* SquareFeetField.swift in Sources */,
+				DC4C030B252BF1C40073904D /* CircleImage.swift in Sources */,
+				DCD3D0D9252E11AA00902D62 /* Packages.swift in Sources */,
+				DC2633B02527BFFB00240172 /* UserProfile.swift in Sources */,
+				DCC146D725255D2200B6CECC /* SceneDelegate.swift in Sources */,
+				DCC1472325255D8200B6CECC /* TransactionRow.swift in Sources */,
+				DCC1471425255D7000B6CECC /* Transaction.swift in Sources */,
+				DCD3D0F1252E151A00902D62 /* AddOnCell.swift in Sources */,
+				DCC1471925255D7600B6CECC /* Data.swift in Sources */,
+				DC4C02F9252BE95A0073904D /* User.swift in Sources */,
+				DC4C0323252C26D00073904D /* AddressField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC146E325255D2400B6CECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC146EC25255D2400B6CECC /* AmartPhotoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC146EE25255D2400B6CECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC146F725255D2400B6CECC /* AmartPhotoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC146E925255D2400B6CECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC146D025255D2200B6CECC /* AmartPhotoApp */;
+			targetProxy = DCC146E825255D2400B6CECC /* PBXContainerItemProxy */;
+		};
+		DCC146F425255D2400B6CECC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC146D025255D2200B6CECC /* AmartPhotoApp */;
+			targetProxy = DCC146F325255D2400B6CECC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCC146DF25255D2400B6CECC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC146E025255D2400B6CECC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCC146F925255D2400B6CECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCC146FA25255D2400B6CECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC146FC25255D2400B6CECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AmartPhotoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = DT6NQCY8FM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AmartPhotoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kaden.AmartPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCC146FD25255D2400B6CECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AmartPhotoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = DT6NQCY8FM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AmartPhotoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kaden.AmartPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCC146FF25255D2400B6CECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT6NQCY8FM;
+				INFOPLIST_FILE = AmartPhotoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kaden.AmartPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmartPhotoApp.app/AmartPhotoApp";
+			};
+			name = Debug;
+		};
+		DCC1470025255D2400B6CECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT6NQCY8FM;
+				INFOPLIST_FILE = AmartPhotoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kaden.AmartPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmartPhotoApp.app/AmartPhotoApp";
+			};
+			name = Release;
+		};
+		DCC1470225255D2400B6CECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT6NQCY8FM;
+				INFOPLIST_FILE = AmartPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kaden.AmartPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmartPhotoApp;
+			};
+			name = Debug;
+		};
+		DCC1470325255D2400B6CECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DT6NQCY8FM;
+				INFOPLIST_FILE = AmartPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kaden.AmartPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AmartPhotoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC146CC25255D2200B6CECC /* Build configuration list for PBXProject "AmartPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC146F925255D2400B6CECC /* Debug */,
+				DCC146FA25255D2400B6CECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC146FB25255D2400B6CECC /* Build configuration list for PBXNativeTarget "AmartPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC146FC25255D2400B6CECC /* Debug */,
+				DCC146FD25255D2400B6CECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC146FE25255D2400B6CECC /* Build configuration list for PBXNativeTarget "AmartPhotoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC146FF25255D2400B6CECC /* Debug */,
+				DCC1470025255D2400B6CECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC1470125255D2400B6CECC /* Build configuration list for PBXNativeTarget "AmartPhotoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC1470225255D2400B6CECC /* Debug */,
+				DCC1470325255D2400B6CECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC146C925255D2200B6CECC /* Project object */;
+}

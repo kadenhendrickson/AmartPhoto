@@ -1,0 +1,15 @@
+{
+    "id": 100001,
+    "firstName": "Kaden",
+    "lastName":  "Hendrickson",
+    "email": "kadenhendrickson4@gmail.com",
+    "brokerage": "Century21",
+    "phoneNumber": "385-312-6365",
+    "role": "Client",
+    "transactions": [],
+    "imageName": "profilePicture",
+    "brokerImageName": "logoImage"
+}
+
+
+

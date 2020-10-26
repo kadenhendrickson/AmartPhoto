@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1001,
+        "status": "Completed",
+        "address": "203 Hickory Dr.",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "zip": "84032",
+        "sqFeet": "8,900",
+        "dateOne": "August 1",
+        "timeOne": "Morning",
+        "dateTwo": "August 2",
+        "timeTwo": "Afternoon",
+        "isVacant": true,
+        "homeOwnerPhone": "385-312-6365",
+        "notes": "Please reach out to me, I have questions regarding the package rates."
+    },
+    {
+        "id": 1002,
+        "status": "Completed",
+        "address": "9863 Lincoln Circle",
+        "city": "Orem",
+        "state": "Utah",
+        "zip": "84032",
+        "sqFeet": "3,540",
+        "dateOne": "September 9",
+        "timeOne": "Any",
+        "dateTwo": "September 15",
+        "timeTwo": "Afternoon",
+        "isVacant": true,
+        "homeOwnerPhone": "385-644-6375",
+        "notes": "Please reach out to me, I have questions regarding the package rates.Please reach out to me, I have questions regarding the package rates.Please reach out to me, I have questions regarding the package rates.Please reach out to me, I have questions regarding the package rates.Please reach out to me, I have questions regarding the package rates.Please reach out to me, ."
+    },
+    {
+        "id": 1003,
+        "status": "Completed",
+        "address": "710 State Avenue",
+        "city": "Logan",
+        "state": "Utah",
+        "zip": "84032",
+        "sqFeet": "7,650",
+        "dateOne": "August 14",
+        "timeOne": "Morning",
+        "dateTwo": "August 15",
+        "timeTwo": "Morning",
+        "isVacant": false,
+        "homeOwnerPhone": "365-512-8365",
+        "notes": "Resident is home"
+    }
+]
